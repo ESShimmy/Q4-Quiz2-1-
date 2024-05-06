@@ -1,0 +1,233 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <title>Page 1</title>
+  <style>
+    body {
+      background-color: #2B2B2B;
+      color: #A1040B;
+    }
+
+    .title {
+      text-align: center;
+      color: #A1040B;
+    }
+
+    .h1 {
+      font-size: 2.5em; 
+    }
+
+    .movie {
+      height: 200px;
+      width: 150px;
+    }
+
+    .container {
+      text-align: center;
+      background-color: #000000;
+      color: #A1040B;
+    }
+
+    .synopsis {
+      height: 230px;
+      width: 300px;
+      font-size: 15px;
+    }
+
+    .cast {
+      font-size: 15px;
+    }
+
+    .review {
+      font-size: 15px;
+    }
+
+    .rating {
+      font-size: 15px;
+    }
+
+    table-table-bordered {
+      width: 80%;
+      margin: auto;
+      background-color: yellow;
+      border-collapse: collapse; /* Collapse table borders */
+    } 
+
+    .container {
+      background-color: gainsboro;
+      padding: 20px;
+      border-radius: 10px;
+    }
+
+    h2 {
+      color: darkorange;
+    }
+
+    .form-group {
+      display: flex;
+      flex-direction: column;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid black;
+      border-radius: 4px;
+    }
+
+    .navbar {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+
+    img {
+      width: 90px;
+    }
+
+    .dropdown {
+      position: relative;
+      display: inline-block;
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute; 
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      padding: 12px 16px;
+      z-index: 1;
+    }
+
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+
+    .nav-item {
+      color: #A1040B;
+    }
+
+    .movie-image {
+      background-color: #2B2B2B;
+    }
+
+    .profile {
+      display: flex;
+      justify-content: center;
+    }
+
+    .profile img {
+      width: 230px;
+      height: 140px;  
+    }
+
+    .porfolio {
+      text-align: center;
+      font-size: 40px;
+    }
+
+    .back-button {
+      background-color: transparent;
+      border: 2px solid #A1040B; 
+      color: #A1040B;
+      padding: 10px 20px; 
+      font-size: 16px;
+      border-radius: 5px; 
+      display: block; 
+      margin: auto;
+      margin-top: 20px; 
+      transition: background-color 0.3s, color 0.3s;
+    }
+
+    .back-button:hover {
+      background-color: #A1040B; 
+      color: white; 
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark"> 
+    <div class="container-fluid">
+      <img src="https://artlogic-res.cloudinary.com/w_1600,h_1600,c_limit,f_auto,fl_lossy,q_auto/ws-timnardelli/usr/images/artworks/main_image/items/f1/f1c23681cf76470b9527b70acb93b29f/dark-web-logo_redesign_mario-animation-file.png">
+      <div class="collapse navbar-collapse" id="mynavbar">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <div class="dropdown">
+              <span><a class="nav-link" href="#">First Quarter</a></span>
+              <div class="dropdown-content">
+                <a href="Page1.html">Q1 PROJECT</a>
+              </div>
+            </div>
+          </li>
+          <li class="nav-item">
+            <div class="dropdown">
+              <span><a class="nav-link" href="#">Second Quarter</a></span>
+              <div class="dropdown-content">
+                <a href="Page2.html">Q2 PROJECT</a>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <center>
+    <table border="1" cellpadding="10" bgcolor="#F5CB81" class="table-bordered">
+      <tr>
+        <th colspan="3"><strong><center>CHARACTERS IN NOLI ME TANGERE</center></strong></th>
+      </tr>
+
+      <tr>
+        <td><img src="https://i.pinimg.com/564x/b6/20/26/b620263787f341c1b747dea5bdab9fd0.jpg" width="70"></td>
+        <td>Juan Crisóstomo Ibarra y Magsalin (Ibarra)</td>
+        <td>
+          <li>He is the main male character in the story.</li>
+          <li>Ibarra studied in Spain and returned to the Philippines</li>
+        </td>
+      </tr>
+
+      <tr>
+        <td><img src="https://i.pinimg.com/564x/aa/78/ca/aa78cafac315c26a0f2cf66f757f3162.jpg" width="70"></td>
+        <td>Maria Clara</td>
+        <td>
+          <li>She is the main women character in the story.</li>
+          <li>She is the fiancée of Ibarra</li>
+        </td>
+      </tr>
+      
+      <tr>
+        <td><img src="https://i.pinimg.com/564x/31/d5/a9/31d5a983eee11252189484884a1779ad.jpg" width="70"></td>
+        <td>Kapitan Tiago</td>
+        <td>
+          <li>A business man in San Diego.</li>
+          <li>The father of Maria Clara (the biological father is a different person).</li>
+        </td>
+      </tr>
+
+      <tr>
+        <td><img src="https://i.pinimg.com/236x/be/49/e9/be49e94be7035ddbb4e57a8ed6d871ac.jpg" width="70"></td>
+        <td>Padre Damaso</td>
+        <td>
+          <li>He is the main antagonist in the story.</li>
+          <li>He is one of the priest in the story.</li>
+        </td>
+      </tr>
+
+      <tr>
+        <td><img src="https://i.pinimg.com/236x/8c/b6/d9/8cb6d9935756e331f6f9667d09111405.jpg" width="70"></td>
+        <td>Padre Salvi</td>
+        <td>
+          <li>The successor of Padre Damaso</li>
+          <li>Have a rivalry with the alferez</li>
+        </td>
+      </tr>
+    </table>
+  </center>
+
+  <a href="Main Page.html">Back to Main Page</a>
+
+</body>
+</html>

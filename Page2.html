@@ -1,0 +1,181 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Page 2</title>
+    <style>
+        body {
+            background-color: #2B2B2B;
+            color: #A1040B;
+            padding: 0;
+            margin: 0;
+        }
+
+        .navbar {
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+
+        img {
+            width: 90px;
+        }
+
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute; 
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            padding: 12px 16px;
+            z-index: 1;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .nav-item {
+            color: #A1040B;
+        }
+
+        header {
+            text-decoration: overline underline;
+            color: #A1040B;
+            text-align: center;
+            padding-top: 30px;
+            padding-bottom: 30px;
+            font-size: 30px;
+        }
+
+        .pizza-menu {
+            display: flex;
+            column-gap: 20px;
+            justify-content: center;
+            padding-top: 30px;
+            padding-bottom: 30px;
+            flex-wrap: wrap;
+        }
+
+        .pizza {
+            border: 1px solid black;
+            text-align: center;
+            width: 350px;
+            background-color: #2B2B2B;
+            padding-top: 30px;
+            padding-bottom: 30px;
+        }
+
+        .pizza-menu-images {
+            height: 200px;
+            width: 300px;
+            row-gap: 30px;
+        }
+
+        .back-button {
+            background-color: transparent;
+            border: 2px solid #A1040B; 
+            color: #A1040B;
+            padding: 10px 20px; 
+            font-size: 16px;
+            border-radius: 5px; 
+            display: block; 
+            margin: auto;
+            margin-top: 20px; 
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        .back-button:hover {
+            background-color: #A1040B; 
+            color: white; 
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark"> 
+        <div class="container-fluid">
+            <img src="https://artlogic-res.cloudinary.com/w_1600,h_1600,c_limit,f_auto,fl_lossy,q_auto/ws-timnardelli/usr/images/artworks/main_image/items/f1/f1c23681cf76470b9527b70acb93b29f/dark-web-logo_redesign_mario-animation-file.png">
+            <div class="collapse navbar-collapse" id="mynavbar">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <div class="dropdown">
+                            <span><a class="nav-link" href="#">First Quarter</a></span>
+                            <div class="dropdown-content">
+                                <a href="Page1.html">Q1 PROJECT</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <div class="dropdown">
+                            <span><a class="nav-link" href="#">Second Quarter</a></span>
+                            <div class="dropdown-content">
+                                <a href="Page2.html">Q2 PROJECT</a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header>
+        <h1>P H O T O  G A L L E R Y</h1>
+    </header>
+          
+    <section class="pizza-menu">
+        <div class="pizza">
+            <h3>Intramuros</h3>
+            <hr>
+            <p>Intramuros is one of the places I've been to while living here in the Philippines.. Intramuros means within walls in Spanish. This structure was created during the Spanish Colonization.</p>
+        </div>
+
+        <div class="pizza">
+            <img class="pizza-menu-images" src="https://www.travel-palawan.com/wp-content/uploads/2019/02/puerto-princesa-undergournd-river-private-tour.jpg">
+            <p><i>travel-palawan.com</i></p>
+        </div>
+
+        <div class="pizza">
+            <h3>Rizal Park</h3>
+            <hr>
+            <p>The Rizal Park is where the monument of Jose Rizal is located. It has the purpose to reminding of  Jose Rizal and memorial of Jose Rizal.</p>
+        </div>
+
+        <div class="pizza">
+            <img class="pizza-menu-images" src="https://www.bataan.gov.ph/wp-content/uploads/2021/09/MT.-SAMAT-scaled.jpg">
+            <p><i>bataan.gov.ph</i></p>
+        </div>
+
+        <div class="pizza">
+            <img class="pizza-menu-images" src="https://gttp.imgix.net/253806/x/0/intramuros-travel-guide-how-to-go-to-places-to-visit-things-to-do-1.jpg?auto=compress%2Cformat&ch=Width%2CDPR&dpr=1&ixlib=php-3.3.0&w=883">
+            <p><i>guidetothephilippines.ph</i></p>
+        </div>
+
+        <div class="pizza">
+            <h3>Palawan Underground River</h3>
+            <hr>
+            <p>The Underground River is located in the east side of Palawan. This is also one of the places I've been to in the Philippines. It was declared as UNESCO World Heritage site in 1999.</p>
+        </div>
+
+        <div class="pizza">
+            <img class="pizza-menu-images" src="https://www.officialgazette.gov.ph/images/uploads/FeaturedImage_RizalParkFranceLights_151118_1426.jpg">
+            <p><i>officialgazette.gov.ph</i></p>
+        </div>
+
+        <div class="pizza">
+            <h3>Mt. Samat Cross</h3>
+            <hr>
+            <p>The Mt.Samat cross is the cross located in the Mt. Samat. The Mt. Samat was a natural fortridge for the US x Philippines army against the Japanese forces. The cross is for the memorial for the dead soldiers during the battle of Bataan. This is also another place I've been to in the Philippines.</p>
+        </div>
+    </section>
+
+    <a href="Main Page.html" class="back-button">Back to Main Page</a>
+
+</body>
+</html>
